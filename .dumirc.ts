@@ -8,5 +8,5 @@ export default defineConfig({
   themeConfig: {
     name: 'tempdumi',
   },
-  publicPath: process.env.NODE_ENV === 'production' ? 'https://donalddai.github.io/dist/' : '/',
+  publicPath: process.env.NODE_ENV === 'production' ? 'https://donalddai.github.io/dumidemo/' : '/',
 });
