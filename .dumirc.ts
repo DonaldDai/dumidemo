@@ -1,6 +1,10 @@
 import { defineConfig } from 'dumi';
 
 export default defineConfig({
+  resolve: {
+    docDirs: ['docmd'],
+  },
+  outputPath: 'docs',
   themeConfig: {
     name: 'tempdumi',
   },
